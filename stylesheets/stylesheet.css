@@ -53,15 +53,18 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
-.page-header {
+.page-header-main {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  font-family: titleFont, sans-serif;
+  background-image: url('https://static.pexels.com/photos/8394/flight-sky-clouds-fly.jpg');
+  background-size: 100%;
+  height: 100%;
+  }
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 10rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -77,15 +80,15 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 10.25rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
-    font-size: 2.25rem; } }
+    font-size: 5.25rem; } }
 
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 1.75rem; } }
+    font-size: 3.75rem; } }
 
 .project-tagline {
   margin-bottom: 2rem;
@@ -243,3 +246,5 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+	
+@font-face { font-family: titleFont; src: url('khand.ttf'); }
