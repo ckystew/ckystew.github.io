@@ -53,18 +53,21 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
-.page-header-main {
+.page-header {
   color: #fff;
   text-align: center;
   font-family: titleFont, sans-serif;
-  background-image: url('../images/header-large.jpg');
-  height:100vh;
-  width: 100vw;
+  height: 100vh;
+  background: url('../images/header-large.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 10rem 6rem; } }
+    padding: 10rem 6rem;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
