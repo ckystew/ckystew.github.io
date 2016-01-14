@@ -6,7 +6,6 @@ body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
   color: #606c71; }
 
 a {
@@ -56,7 +55,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  font-family: titleFont, sans-serif;
+  font-family: header-font-main, sans-serif;
   height: 100vh;
   background: url('../images/header-large.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -77,9 +76,34 @@ a {
   .page-header {
     padding: 2rem 1rem; } }
 
+.header {
+	font-weight: normal;
+	color: #585858;
+}
+
+.header-text {
+	font-family: header-font-main, sans-serif;
+	font-size: 5.0rem;
+}
+
+.header-subtext {
+	font-family: header-font-thin, sans-serif;
+	font-size: 4.0rem;
+	font-weight: bold;
+}
+
+.logo-main {
+	width: 300px;
+}
+
+.subtext{
+	margin-right: 50px;
+}
+	
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 0.1rem;
+  display: none;}
 
 @media screen and (min-width: 64em) {
   .project-name {
@@ -251,3 +275,5 @@ a {
     font-size: 0.9rem; } }
 	
 @font-face { font-family: titleFont; src: url('khand.ttf'); }
+@font-face { font-family: header-font-main; src: url('NovitoNova-Regular.otf'); }
+@font-face { font-family: header-font-thin; src: url('NovitoNova-Thin.otf'); }
