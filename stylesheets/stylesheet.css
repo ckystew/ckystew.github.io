@@ -9,7 +9,7 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  color: #4aaaf4;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -54,7 +54,6 @@ a {
 
 .page-header {
   color: #fff;
-  text-align: center;
   font-family: header-font-main, sans-serif;
   height: 100vh;
   background: url('../images/header-large.jpg') no-repeat center center fixed;
@@ -62,6 +61,8 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-align: center;
+  position: relative;
   }
 
 @media screen and (min-width: 64em) {
@@ -79,14 +80,19 @@ a {
 
 .header {
 	font-weight: normal;
-	color: #585858;
+	color: #636363;
 }
 
 @media screen and (min-width: 64em) {
   .header {
+    width: 600px;
     padding-bottom: 50px;
+    position: absolute;
     bottom: 0;
+    left: 50%;
+    margin-left: -300px;
   }
+}
 
 .header-text {
 	font-family: header-font-main, sans-serif;
@@ -95,7 +101,7 @@ a {
 
 .header-subtext {
 	font-family: header-font-thin, sans-serif;
-	font-size: 4.0rem;
+	font-size: 3.0rem;
 	font-weight: bold;
 }
 
