@@ -125,11 +125,17 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
-    font-size: 5.25rem; } }
+    font-size: 5.25rem; }
+  .subtext{
+  	margin-right: 50px;} }
 
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 3.75rem; } }
+    font-size: 3.75rem; }
+  .header-text {
+    text-shadow: 0 0 5px #ffffff
+  }
+  }
 
 .project-tagline {
   margin-bottom: 2rem;
