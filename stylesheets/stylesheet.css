@@ -57,7 +57,7 @@ a {
   text-align: center;
   font-family: header-font-main, sans-serif;
   height: 100vh;
-  background: url('../images/header-large.jpg') no-repeat center center fixed; 
+  background: url('../images/header-large.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -66,7 +66,8 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 10rem 6rem;} }
+    /*padding: 10rem 6rem;*/
+    } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -80,6 +81,12 @@ a {
 	font-weight: normal;
 	color: #585858;
 }
+
+@media screen and (min-width: 64em) {
+  .header {
+    padding-bottom: 50px;
+    bottom: 0;
+  }
 
 .header-text {
 	font-family: header-font-main, sans-serif;
@@ -96,10 +103,8 @@ a {
 	width: 300px;
 }
 
-.subtext{
-	margin-right: 50px;
-}
-	
+
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
@@ -107,7 +112,10 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 10.25rem; } }
+    font-size: 10.25rem;}
+
+  .subtext{
+	margin-right: 50px;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
@@ -273,7 +281,7 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-	
+
 @font-face { font-family: titleFont; src: url('khand.ttf'); }
 @font-face { font-family: header-font-main; src: url('NovitoNova-Regular.otf'); }
 @font-face { font-family: header-font-thin; src: url('NovitoNova-Thin.otf'); }
